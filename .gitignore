@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Env
+venv/
+.env/
+
+# Secrets
+.env
+
+# Data files (PRIVATE)
+data/raw/
+*.csv
+*.json
+
+# Vector DB (can be regenerated)
+vectorstore/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model cache
+.cache/
